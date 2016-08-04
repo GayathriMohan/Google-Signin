@@ -1,0 +1,285 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	margin:0px;
+}
+div
+{
+	display:block;
+}
+
+.container
+{
+	
+}
+header
+{
+	height:83px;
+	margin-top:-25px;
+
+
+}
+header .google
+{
+	background-size: 112px 36px;
+}
+.logo
+{
+	padding:0px 44px;
+	margin:25px auto 20px;
+	display:block;
+	padding-top: 27px;
+	//width:110px;
+}
+.main
+{
+	padding-bottom: 12px;
+}
+.banner
+{
+	text-align: center;
+}
+.banner h1
+{
+	font-size: 38px;
+	margin:0px 0px 15px ;
+	font-family: 'Open Sans',arial;
+	font-weight:300;
+	color:#555;
+}
+.banner h2
+{
+	color:#555;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Open Sans',arial;
+	margin-bottom: 15px ;
+}
+.w3-card-2 {
+  	width: 352px;
+  	height: 315px;
+  	background-color: #f7f7f7;
+  	margin: 14px 0;
+}
+.data
+{
+	position: relative;
+	width:274px;
+	margin-top:10px;
+	height: 100px;
+}
+#Emailbox
+{
+	position: absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	width:100%;
+}
+#email
+{
+	height:44px;
+	font-size: 16px;
+	padding-left:8px;
+	color: #404040;
+	width:100%;
+	font-family:Arial;
+}
+#email:hover
+{
+	border-color: #d3d3d3;
+	border-width: 1px;
+}
+#Nextbox
+{
+	position: absolute;
+	top:51px;
+	right:0px;
+	left:0px;
+	width:100%;
+}
+#next
+{
+	width:100%;
+    display: block;
+    background-color:#4c89eb;  /* #357ae8;*/
+    color:white;
+    z-index:1;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align:center;
+    height:36px;
+    border-radius: 3px;
+    border-color: #4c89eb;
+    border:1px solid #4c89eb;
+
+}
+#next:hover
+{
+	border:1px solid #2f5bb7;
+}
+#help
+{
+	float:right;
+	color: #427fed;
+	position: absolute;
+	top:94px;
+	right:0px;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Arial;
+}
+#help:hover
+{
+	color:#427fed;
+	text-decoration: underline;
+}
+.icon
+{
+	height:96px;
+	width:96px;
+	border-radius: 50%;
+	margin-bottom:10px;
+	margin-top: 36px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Createacc
+{
+	width:360px;
+	height:160px;
+	
+	color:#427fed;
+	font-family: Arial;
+	font-size: 14px;
+}
+.Createacc a
+{
+	text-decoration: none;
+}
+.Createacc a:hover
+{
+	text-decoration: underline;
+}
+
+#foot
+{
+	color:black;
+	color: #555;
+    font-size: 14px;
+    text-align: center;
+    margin:25px 0 10px;
+}
+.iconslist
+{
+	margin-top:-8px;
+}
+footer
+{
+	    border-top: 1px solid #e5e5e5;
+	    height: 35px;
+    	width: 100%;
+    	position: relative;
+}
+ul
+{
+	float:left;
+	font-size: 11px;
+	font-family: Arial;
+}
+li 
+{
+	color: #737373;
+	display: inline;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+li a
+{
+    
+    text-decoration: none;
+}
+ul li a:hover
+{
+	text-decoration: underline;
+}
+.footerclass
+{
+	height: 30px;
+    width: 301px;
+    padding-left: 45px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.lang-chooser
+{
+	
+	border-color: rgb(169, 169, 169);
+	font-family: Arial;
+	font-size: 13px;
+	position: absolute;
+	top:7px;
+	right:45px;
+	padding-right: 17px;
+	height:24px;
+}
+#img
+{
+	position: absolute;
+	right:220px;
+
+	padding-top: 7px;
+
+}
+@media only screen and (max-width: 580px)
+{
+	.banner h2
+	{
+		display: none;
+	}
+	.banner h1
+	{
+		font-size: 22px;
+		margin-bottom:15px;
+	}
+	.w3-card-2
+	{
+		width:50%;
+		height:250px;
+	}
+	.icon
+	{
+		width:72px;
+		height:72px;
+		margin-top:10px;
+	}
+	.data
+	{
+		width:95%;
+	}
+
+	#email
+	{
+		
+		width: 95%;
+	}
+	#next
+	{
+		margin-top:1px;
+		width:95%;
+	}
+	#help
+	{
+		font-size: 14px;
+	}
+	#lang-chooser,#img
+	{
+		display: none;
+	}
+}
