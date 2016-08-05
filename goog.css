@@ -78,7 +78,7 @@ header .google
 	top:0px;
 	right:0px;
 	left:0px;
-	width:100%;
+	width:95%;
 }
 #email
 {
@@ -93,6 +93,10 @@ header .google
 {
 	border-color: #d3d3d3;
 	border-width: 1px;
+}
+a
+{
+	color: #427fed;
 }
 #Nextbox
 {
